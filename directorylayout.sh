@@ -9,4 +9,4 @@ mkdir -p inventories/{library,roles/{common/{tasks,handlers,templates,files,vars
 
 touch inventories/{site.yml,webservers.yml,appservers.yml,dbservers.yml}
 
-touch inventories/roles/common/{tasks,handlers,templates,files,vars,defaults,meta}/main.yml
+touch inventories/roles/common/{tasks,handlers,vars,defaults,meta}/main.yml
